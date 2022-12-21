@@ -155,7 +155,8 @@ namespace GorselProgramlama
         private void btnYeni_Click(object sender, EventArgs e)
         {
             // kendisinin bir kopyasını çalıştırır.
-            System.Diagnostics.Process.Start(Application.ProductName);
+           NotDefteri yeni = new NotDefteri();
+            yeni.Show();
         }
 
         // dosya_adı değişkeni dosya açma kaydetme işlemlerinde kullanılacak
