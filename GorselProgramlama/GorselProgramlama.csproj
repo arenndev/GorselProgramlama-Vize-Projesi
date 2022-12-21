@@ -76,6 +76,12 @@
     <Compile Include="HesapMakinesi.Designer.cs">
       <DependentUpon>HesapMakinesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="NotDefteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotDefteri.Designer.cs">
+      <DependentUpon>NotDefteri.cs</DependentUpon>
+    </Compile>
     <Compile Include="PokerOyunu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <EmbeddedResource Include="HesapMakinesi.resx">
       <DependentUpon>HesapMakinesi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NotDefteri.resx">
+      <DependentUpon>NotDefteri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PokerOyunu.resx">
       <DependentUpon>PokerOyunu.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +131,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SatrancAtinHareketi.resx">
       <DependentUpon>SatrancAtinHareketi.cs</DependentUpon>
@@ -141,6 +151,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewDocumentHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CutHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopyHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PasteHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_UndoHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_RedoHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlignTableCellMiddleLeftJustHS.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlignTableCellMiddleCenterHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlignTableCellMiddleRightHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FontHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Color_fontHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorHS.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -58,5 +58,11 @@ namespace GorselProgramlama
             HesapMakinesi form8 = new HesapMakinesi();
             form8.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            NotDefteri form9 = new NotDefteri();
+            form9.Show();
+        }
     }
 }
