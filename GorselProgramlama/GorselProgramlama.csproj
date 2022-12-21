@@ -70,6 +70,12 @@
     <Compile Include="BuyukUnluUyumu.Designer.cs">
       <DependentUpon>BuyukUnluUyumu.cs</DependentUpon>
     </Compile>
+    <Compile Include="HesapMakinesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HesapMakinesi.Designer.cs">
+      <DependentUpon>HesapMakinesi.cs</DependentUpon>
+    </Compile>
     <Compile Include="PokerOyunu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BuyukUnluUyumu.resx">
       <DependentUpon>BuyukUnluUyumu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HesapMakinesi.resx">
+      <DependentUpon>HesapMakinesi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PokerOyunu.resx">
       <DependentUpon>PokerOyunu.cs</DependentUpon>

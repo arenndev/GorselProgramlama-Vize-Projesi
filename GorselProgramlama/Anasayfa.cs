@@ -52,5 +52,11 @@ namespace GorselProgramlama
             SatrancAtinHareketi form7 =  new SatrancAtinHareketi();
             form7.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            HesapMakinesi form8 = new HesapMakinesi();
+            form8.Show();
+        }
     }
 }
