@@ -180,7 +180,7 @@ namespace GorselProgramlama
                 sr.Close();
 
                 // formun başlığına dosya adını ekliyoruz.
-                this.Text = "BMYO Not Defteri [" + dosya_adı + "]";
+                this.Text = "Not Defteri [" + dosya_adı + "]";
             }
         }
 
@@ -227,7 +227,7 @@ namespace GorselProgramlama
                 sw.Close();
 
                 // formun başlığına dosya adını ekliyoruz.
-                this.Text = "BilisimOgretmeni.com Not Defteri [" + dosya_adı + "]";
+                this.Text = "Not Defteri [" + dosya_adı + "]";
             }
 
         }
