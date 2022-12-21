@@ -52,9 +52,10 @@
             // 
             // b2
             // 
-            this.b2.Location = new System.Drawing.Point(90, 232);
+            this.b2.Location = new System.Drawing.Point(68, 188);
+            this.b2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.b2.Name = "b2";
-            this.b2.Size = new System.Drawing.Size(60, 63);
+            this.b2.Size = new System.Drawing.Size(45, 51);
             this.b2.TabIndex = 39;
             this.b2.Text = "2";
             this.b2.UseVisualStyleBackColor = true;
@@ -62,9 +63,10 @@
             // 
             // bCE
             // 
-            this.bCE.Location = new System.Drawing.Point(288, 104);
+            this.bCE.Location = new System.Drawing.Point(216, 84);
+            this.bCE.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bCE.Name = "bCE";
-            this.bCE.Size = new System.Drawing.Size(60, 58);
+            this.bCE.Size = new System.Drawing.Size(45, 47);
             this.bCE.TabIndex = 38;
             this.bCE.Text = "CE";
             this.bCE.UseVisualStyleBackColor = true;
@@ -72,9 +74,10 @@
             // 
             // bC
             // 
-            this.bC.Location = new System.Drawing.Point(288, 168);
+            this.bC.Location = new System.Drawing.Point(216, 136);
+            this.bC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bC.Name = "bC";
-            this.bC.Size = new System.Drawing.Size(60, 58);
+            this.bC.Size = new System.Drawing.Size(45, 47);
             this.bC.TabIndex = 37;
             this.bC.Text = "C";
             this.bC.UseVisualStyleBackColor = true;
@@ -82,9 +85,10 @@
             // 
             // bEsit
             // 
-            this.bEsit.Location = new System.Drawing.Point(288, 234);
+            this.bEsit.Location = new System.Drawing.Point(216, 190);
+            this.bEsit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bEsit.Name = "bEsit";
-            this.bEsit.Size = new System.Drawing.Size(60, 130);
+            this.bEsit.Size = new System.Drawing.Size(45, 106);
             this.bEsit.TabIndex = 36;
             this.bEsit.Text = "=";
             this.bEsit.UseVisualStyleBackColor = true;
@@ -92,9 +96,10 @@
             // 
             // bNotkta
             // 
-            this.bNotkta.Location = new System.Drawing.Point(156, 303);
+            this.bNotkta.Location = new System.Drawing.Point(117, 246);
+            this.bNotkta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bNotkta.Name = "bNotkta";
-            this.bNotkta.Size = new System.Drawing.Size(60, 61);
+            this.bNotkta.Size = new System.Drawing.Size(45, 50);
             this.bNotkta.TabIndex = 35;
             this.bNotkta.Text = ".";
             this.bNotkta.UseVisualStyleBackColor = true;
@@ -102,9 +107,10 @@
             // 
             // bBol
             // 
-            this.bBol.Location = new System.Drawing.Point(222, 104);
+            this.bBol.Location = new System.Drawing.Point(166, 84);
+            this.bBol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bBol.Name = "bBol";
-            this.bBol.Size = new System.Drawing.Size(60, 58);
+            this.bBol.Size = new System.Drawing.Size(45, 47);
             this.bBol.TabIndex = 34;
             this.bBol.Text = "/";
             this.bBol.UseVisualStyleBackColor = true;
@@ -112,9 +118,10 @@
             // 
             // bCarp
             // 
-            this.bCarp.Location = new System.Drawing.Point(222, 168);
+            this.bCarp.Location = new System.Drawing.Point(166, 136);
+            this.bCarp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bCarp.Name = "bCarp";
-            this.bCarp.Size = new System.Drawing.Size(60, 58);
+            this.bCarp.Size = new System.Drawing.Size(45, 47);
             this.bCarp.TabIndex = 33;
             this.bCarp.Text = "*";
             this.bCarp.UseVisualStyleBackColor = true;
@@ -122,9 +129,10 @@
             // 
             // bCikar
             // 
-            this.bCikar.Location = new System.Drawing.Point(222, 234);
+            this.bCikar.Location = new System.Drawing.Point(166, 190);
+            this.bCikar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bCikar.Name = "bCikar";
-            this.bCikar.Size = new System.Drawing.Size(60, 61);
+            this.bCikar.Size = new System.Drawing.Size(45, 50);
             this.bCikar.TabIndex = 32;
             this.bCikar.Text = "-";
             this.bCikar.UseVisualStyleBackColor = true;
@@ -132,9 +140,10 @@
             // 
             // bEkle
             // 
-            this.bEkle.Location = new System.Drawing.Point(222, 303);
+            this.bEkle.Location = new System.Drawing.Point(166, 246);
+            this.bEkle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bEkle.Name = "bEkle";
-            this.bEkle.Size = new System.Drawing.Size(60, 61);
+            this.bEkle.Size = new System.Drawing.Size(45, 50);
             this.bEkle.TabIndex = 31;
             this.bEkle.Text = "+";
             this.bEkle.UseVisualStyleBackColor = true;
@@ -142,9 +151,10 @@
             // 
             // b9
             // 
-            this.b9.Location = new System.Drawing.Point(156, 104);
+            this.b9.Location = new System.Drawing.Point(117, 84);
+            this.b9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.b9.Name = "b9";
-            this.b9.Size = new System.Drawing.Size(60, 58);
+            this.b9.Size = new System.Drawing.Size(45, 47);
             this.b9.TabIndex = 30;
             this.b9.Text = "9";
             this.b9.UseVisualStyleBackColor = true;
@@ -152,9 +162,10 @@
             // 
             // b8
             // 
-            this.b8.Location = new System.Drawing.Point(90, 104);
+            this.b8.Location = new System.Drawing.Point(68, 84);
+            this.b8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.b8.Name = "b8";
-            this.b8.Size = new System.Drawing.Size(60, 58);
+            this.b8.Size = new System.Drawing.Size(45, 47);
             this.b8.TabIndex = 29;
             this.b8.Text = "8";
             this.b8.UseVisualStyleBackColor = true;
@@ -162,9 +173,10 @@
             // 
             // b7
             // 
-            this.b7.Location = new System.Drawing.Point(24, 104);
+            this.b7.Location = new System.Drawing.Point(18, 84);
+            this.b7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.b7.Name = "b7";
-            this.b7.Size = new System.Drawing.Size(60, 58);
+            this.b7.Size = new System.Drawing.Size(45, 47);
             this.b7.TabIndex = 28;
             this.b7.Text = "7";
             this.b7.UseVisualStyleBackColor = true;
@@ -172,9 +184,10 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(156, 168);
+            this.button6.Location = new System.Drawing.Point(117, 136);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(60, 58);
+            this.button6.Size = new System.Drawing.Size(45, 47);
             this.button6.TabIndex = 27;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = true;
@@ -182,9 +195,10 @@
             // 
             // b5
             // 
-            this.b5.Location = new System.Drawing.Point(90, 168);
+            this.b5.Location = new System.Drawing.Point(68, 136);
+            this.b5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.b5.Name = "b5";
-            this.b5.Size = new System.Drawing.Size(60, 58);
+            this.b5.Size = new System.Drawing.Size(45, 47);
             this.b5.TabIndex = 26;
             this.b5.Text = "5";
             this.b5.UseVisualStyleBackColor = true;
@@ -192,9 +206,10 @@
             // 
             // b4
             // 
-            this.b4.Location = new System.Drawing.Point(24, 168);
+            this.b4.Location = new System.Drawing.Point(18, 136);
+            this.b4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.b4.Name = "b4";
-            this.b4.Size = new System.Drawing.Size(60, 61);
+            this.b4.Size = new System.Drawing.Size(45, 50);
             this.b4.TabIndex = 25;
             this.b4.Text = "4";
             this.b4.UseVisualStyleBackColor = true;
@@ -202,9 +217,10 @@
             // 
             // b3
             // 
-            this.b3.Location = new System.Drawing.Point(156, 234);
+            this.b3.Location = new System.Drawing.Point(117, 190);
+            this.b3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.b3.Name = "b3";
-            this.b3.Size = new System.Drawing.Size(60, 61);
+            this.b3.Size = new System.Drawing.Size(45, 50);
             this.b3.TabIndex = 24;
             this.b3.Text = "3";
             this.b3.UseVisualStyleBackColor = true;
@@ -212,9 +228,10 @@
             // 
             // b1
             // 
-            this.b1.Location = new System.Drawing.Point(24, 232);
+            this.b1.Location = new System.Drawing.Point(18, 188);
+            this.b1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.b1.Name = "b1";
-            this.b1.Size = new System.Drawing.Size(60, 63);
+            this.b1.Size = new System.Drawing.Size(45, 51);
             this.b1.TabIndex = 23;
             this.b1.Text = "1";
             this.b1.UseVisualStyleBackColor = true;
@@ -222,9 +239,10 @@
             // 
             // b0
             // 
-            this.b0.Location = new System.Drawing.Point(24, 301);
+            this.b0.Location = new System.Drawing.Point(18, 245);
+            this.b0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.b0.Name = "b0";
-            this.b0.Size = new System.Drawing.Size(126, 63);
+            this.b0.Size = new System.Drawing.Size(94, 51);
             this.b0.TabIndex = 22;
             this.b0.Text = "0";
             this.b0.UseVisualStyleBackColor = true;
@@ -233,24 +251,26 @@
             // lblSonuc
             // 
             this.lblSonuc.AutoSize = true;
-            this.lblSonuc.Location = new System.Drawing.Point(21, 25);
+            this.lblSonuc.Location = new System.Drawing.Point(16, 20);
+            this.lblSonuc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSonuc.Name = "lblSonuc";
-            this.lblSonuc.Size = new System.Drawing.Size(45, 16);
+            this.lblSonuc.Size = new System.Drawing.Size(38, 13);
             this.lblSonuc.TabIndex = 21;
             this.lblSonuc.Text = "Sonuç";
             // 
             // txtSonuc
             // 
-            this.txtSonuc.Location = new System.Drawing.Point(24, 53);
+            this.txtSonuc.Location = new System.Drawing.Point(18, 43);
+            this.txtSonuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSonuc.Name = "txtSonuc";
-            this.txtSonuc.Size = new System.Drawing.Size(324, 22);
+            this.txtSonuc.Size = new System.Drawing.Size(244, 20);
             this.txtSonuc.TabIndex = 20;
             // 
             // HesapMakinesi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 386);
+            this.ClientSize = new System.Drawing.Size(289, 314);
             this.Controls.Add(this.b2);
             this.Controls.Add(this.bCE);
             this.Controls.Add(this.bC);
@@ -271,6 +291,8 @@
             this.Controls.Add(this.b0);
             this.Controls.Add(this.lblSonuc);
             this.Controls.Add(this.txtSonuc);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "HesapMakinesi";
             this.Text = "HesapMakinesi";
             this.ResumeLayout(false);

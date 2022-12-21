@@ -39,27 +39,30 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(149, 89);
+            this.label2.Location = new System.Drawing.Point(112, 72);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 16);
+            this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 10;
             this.label2.Text = "Jeton Sayısı";
             // 
             // KazanmaIhtimaliEtiket
             // 
             this.KazanmaIhtimaliEtiket.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.KazanmaIhtimaliEtiket.Location = new System.Drawing.Point(12, 21);
+            this.KazanmaIhtimaliEtiket.Location = new System.Drawing.Point(9, 17);
+            this.KazanmaIhtimaliEtiket.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.KazanmaIhtimaliEtiket.Name = "KazanmaIhtimaliEtiket";
-            this.KazanmaIhtimaliEtiket.Size = new System.Drawing.Size(362, 39);
+            this.KazanmaIhtimaliEtiket.Size = new System.Drawing.Size(272, 32);
             this.KazanmaIhtimaliEtiket.TabIndex = 9;
             this.KazanmaIhtimaliEtiket.Text = "Kazanma İhtimali";
             // 
             // ParaEkleDugme
             // 
             this.ParaEkleDugme.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ParaEkleDugme.Location = new System.Drawing.Point(69, 187);
+            this.ParaEkleDugme.Location = new System.Drawing.Point(52, 152);
+            this.ParaEkleDugme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ParaEkleDugme.Name = "ParaEkleDugme";
-            this.ParaEkleDugme.Size = new System.Drawing.Size(105, 70);
+            this.ParaEkleDugme.Size = new System.Drawing.Size(79, 57);
             this.ParaEkleDugme.TabIndex = 8;
             this.ParaEkleDugme.Text = "Para Ekle";
             this.ParaEkleDugme.UseVisualStyleBackColor = true;
@@ -67,17 +70,19 @@
             // 
             // JetonSayisiEtiket2
             // 
-            this.JetonSayisiEtiket2.Location = new System.Drawing.Point(118, 128);
+            this.JetonSayisiEtiket2.Location = new System.Drawing.Point(88, 104);
+            this.JetonSayisiEtiket2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.JetonSayisiEtiket2.Name = "JetonSayisiEtiket2";
-            this.JetonSayisiEtiket2.Size = new System.Drawing.Size(163, 22);
+            this.JetonSayisiEtiket2.Size = new System.Drawing.Size(123, 20);
             this.JetonSayisiEtiket2.TabIndex = 7;
             // 
             // OynaDugme
             // 
             this.OynaDugme.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.OynaDugme.Location = new System.Drawing.Point(211, 185);
+            this.OynaDugme.Location = new System.Drawing.Point(158, 150);
+            this.OynaDugme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.OynaDugme.Name = "OynaDugme";
-            this.OynaDugme.Size = new System.Drawing.Size(105, 72);
+            this.OynaDugme.Size = new System.Drawing.Size(79, 58);
             this.OynaDugme.TabIndex = 6;
             this.OynaDugme.Text = "Oyna";
             this.OynaDugme.UseVisualStyleBackColor = true;
@@ -85,14 +90,16 @@
             // 
             // SlotMakine
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 297);
+            this.ClientSize = new System.Drawing.Size(298, 241);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.KazanmaIhtimaliEtiket);
             this.Controls.Add(this.ParaEkleDugme);
             this.Controls.Add(this.JetonSayisiEtiket2);
             this.Controls.Add(this.OynaDugme);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SlotMakine";
             this.Text = "SlotMakine";
             this.ResumeLayout(false);

@@ -40,10 +40,9 @@
             // 
             // btnDagitimYap
             // 
-            this.btnDagitimYap.Location = new System.Drawing.Point(257, 380);
-            this.btnDagitimYap.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDagitimYap.Location = new System.Drawing.Point(193, 309);
             this.btnDagitimYap.Name = "btnDagitimYap";
-            this.btnDagitimYap.Size = new System.Drawing.Size(279, 28);
+            this.btnDagitimYap.Size = new System.Drawing.Size(209, 23);
             this.btnDagitimYap.TabIndex = 15;
             this.btnDagitimYap.Text = "Dagitim Yap";
             this.btnDagitimYap.UseVisualStyleBackColor = true;
@@ -51,10 +50,9 @@
             // 
             // btnBolgeEkle
             // 
-            this.btnBolgeEkle.Location = new System.Drawing.Point(387, 344);
-            this.btnBolgeEkle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBolgeEkle.Location = new System.Drawing.Point(290, 280);
             this.btnBolgeEkle.Name = "btnBolgeEkle";
-            this.btnBolgeEkle.Size = new System.Drawing.Size(100, 28);
+            this.btnBolgeEkle.Size = new System.Drawing.Size(75, 23);
             this.btnBolgeEkle.TabIndex = 14;
             this.btnBolgeEkle.Text = "Bolge Ekle";
             this.btnBolgeEkle.UseVisualStyleBackColor = true;
@@ -62,10 +60,9 @@
             // 
             // btnKisiEkle
             // 
-            this.btnKisiEkle.Location = new System.Drawing.Point(167, 344);
-            this.btnKisiEkle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnKisiEkle.Location = new System.Drawing.Point(125, 280);
             this.btnKisiEkle.Name = "btnKisiEkle";
-            this.btnKisiEkle.Size = new System.Drawing.Size(100, 28);
+            this.btnKisiEkle.Size = new System.Drawing.Size(75, 23);
             this.btnKisiEkle.TabIndex = 13;
             this.btnKisiEkle.Text = "Kisi Ekle";
             this.btnKisiEkle.UseVisualStyleBackColor = true;
@@ -73,55 +70,47 @@
             // 
             // txtBolgeEkle
             // 
-            this.txtBolgeEkle.Location = new System.Drawing.Point(299, 311);
-            this.txtBolgeEkle.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBolgeEkle.Location = new System.Drawing.Point(224, 253);
             this.txtBolgeEkle.Name = "txtBolgeEkle";
-            this.txtBolgeEkle.Size = new System.Drawing.Size(187, 22);
+            this.txtBolgeEkle.Size = new System.Drawing.Size(141, 20);
             this.txtBolgeEkle.TabIndex = 12;
             // 
             // txtKisiEkle
             // 
-            this.txtKisiEkle.Location = new System.Drawing.Point(79, 312);
-            this.txtKisiEkle.Margin = new System.Windows.Forms.Padding(4);
+            this.txtKisiEkle.Location = new System.Drawing.Point(59, 254);
             this.txtKisiEkle.Name = "txtKisiEkle";
-            this.txtKisiEkle.Size = new System.Drawing.Size(187, 22);
+            this.txtKisiEkle.Size = new System.Drawing.Size(141, 20);
             this.txtKisiEkle.TabIndex = 11;
             // 
             // lbxEslesmeler
             // 
             this.lbxEslesmeler.FormattingEnabled = true;
-            this.lbxEslesmeler.ItemHeight = 16;
-            this.lbxEslesmeler.Location = new System.Drawing.Point(529, 43);
-            this.lbxEslesmeler.Margin = new System.Windows.Forms.Padding(4);
+            this.lbxEslesmeler.Location = new System.Drawing.Point(397, 35);
             this.lbxEslesmeler.Name = "lbxEslesmeler";
-            this.lbxEslesmeler.Size = new System.Drawing.Size(192, 292);
+            this.lbxEslesmeler.Size = new System.Drawing.Size(145, 238);
             this.lbxEslesmeler.TabIndex = 10;
             // 
             // lbxBolgeler
             // 
             this.lbxBolgeler.FormattingEnabled = true;
-            this.lbxBolgeler.ItemHeight = 16;
-            this.lbxBolgeler.Location = new System.Drawing.Point(299, 43);
-            this.lbxBolgeler.Margin = new System.Windows.Forms.Padding(4);
+            this.lbxBolgeler.Location = new System.Drawing.Point(224, 35);
             this.lbxBolgeler.Name = "lbxBolgeler";
-            this.lbxBolgeler.Size = new System.Drawing.Size(187, 260);
+            this.lbxBolgeler.Size = new System.Drawing.Size(141, 212);
             this.lbxBolgeler.TabIndex = 9;
             // 
             // lbxKisiler
             // 
             this.lbxKisiler.FormattingEnabled = true;
-            this.lbxKisiler.ItemHeight = 16;
-            this.lbxKisiler.Location = new System.Drawing.Point(79, 43);
-            this.lbxKisiler.Margin = new System.Windows.Forms.Padding(4);
+            this.lbxKisiler.Location = new System.Drawing.Point(59, 35);
             this.lbxKisiler.Name = "lbxKisiler";
-            this.lbxKisiler.Size = new System.Drawing.Size(187, 260);
+            this.lbxKisiler.Size = new System.Drawing.Size(141, 212);
             this.lbxKisiler.TabIndex = 8;
             // 
             // AskerDagitim
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnDagitimYap);
             this.Controls.Add(this.btnBolgeEkle);
             this.Controls.Add(this.btnKisiEkle);
@@ -130,6 +119,8 @@
             this.Controls.Add(this.lbxEslesmeler);
             this.Controls.Add(this.lbxBolgeler);
             this.Controls.Add(this.lbxKisiler);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AskerDagitim";
             this.Text = "AskerDagitim";
             this.ResumeLayout(false);
