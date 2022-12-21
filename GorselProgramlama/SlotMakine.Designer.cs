@@ -60,7 +60,7 @@
             // 
             this.ParaEkleDugme.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ParaEkleDugme.Location = new System.Drawing.Point(52, 152);
-            this.ParaEkleDugme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ParaEkleDugme.Margin = new System.Windows.Forms.Padding(2);
             this.ParaEkleDugme.Name = "ParaEkleDugme";
             this.ParaEkleDugme.Size = new System.Drawing.Size(79, 57);
             this.ParaEkleDugme.TabIndex = 8;
@@ -71,7 +71,7 @@
             // JetonSayisiEtiket2
             // 
             this.JetonSayisiEtiket2.Location = new System.Drawing.Point(88, 104);
-            this.JetonSayisiEtiket2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.JetonSayisiEtiket2.Margin = new System.Windows.Forms.Padding(2);
             this.JetonSayisiEtiket2.Name = "JetonSayisiEtiket2";
             this.JetonSayisiEtiket2.Size = new System.Drawing.Size(123, 20);
             this.JetonSayisiEtiket2.TabIndex = 7;
@@ -80,7 +80,7 @@
             // 
             this.OynaDugme.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.OynaDugme.Location = new System.Drawing.Point(158, 150);
-            this.OynaDugme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.OynaDugme.Margin = new System.Windows.Forms.Padding(2);
             this.OynaDugme.Name = "OynaDugme";
             this.OynaDugme.Size = new System.Drawing.Size(79, 58);
             this.OynaDugme.TabIndex = 6;
@@ -99,9 +99,9 @@
             this.Controls.Add(this.JetonSayisiEtiket2);
             this.Controls.Add(this.OynaDugme);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SlotMakine";
-            this.Text = "SlotMakine";
+            this.Text = "Slot Makinesi - 212106062 - Umut Kuzu";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -53,7 +53,7 @@
             // b2
             // 
             this.b2.Location = new System.Drawing.Point(68, 188);
-            this.b2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b2.Margin = new System.Windows.Forms.Padding(2);
             this.b2.Name = "b2";
             this.b2.Size = new System.Drawing.Size(45, 51);
             this.b2.TabIndex = 39;
@@ -64,7 +64,7 @@
             // bCE
             // 
             this.bCE.Location = new System.Drawing.Point(216, 84);
-            this.bCE.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bCE.Margin = new System.Windows.Forms.Padding(2);
             this.bCE.Name = "bCE";
             this.bCE.Size = new System.Drawing.Size(45, 47);
             this.bCE.TabIndex = 38;
@@ -75,7 +75,7 @@
             // bC
             // 
             this.bC.Location = new System.Drawing.Point(216, 136);
-            this.bC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bC.Margin = new System.Windows.Forms.Padding(2);
             this.bC.Name = "bC";
             this.bC.Size = new System.Drawing.Size(45, 47);
             this.bC.TabIndex = 37;
@@ -86,7 +86,7 @@
             // bEsit
             // 
             this.bEsit.Location = new System.Drawing.Point(216, 190);
-            this.bEsit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bEsit.Margin = new System.Windows.Forms.Padding(2);
             this.bEsit.Name = "bEsit";
             this.bEsit.Size = new System.Drawing.Size(45, 106);
             this.bEsit.TabIndex = 36;
@@ -97,7 +97,7 @@
             // bNotkta
             // 
             this.bNotkta.Location = new System.Drawing.Point(117, 246);
-            this.bNotkta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bNotkta.Margin = new System.Windows.Forms.Padding(2);
             this.bNotkta.Name = "bNotkta";
             this.bNotkta.Size = new System.Drawing.Size(45, 50);
             this.bNotkta.TabIndex = 35;
@@ -108,7 +108,7 @@
             // bBol
             // 
             this.bBol.Location = new System.Drawing.Point(166, 84);
-            this.bBol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bBol.Margin = new System.Windows.Forms.Padding(2);
             this.bBol.Name = "bBol";
             this.bBol.Size = new System.Drawing.Size(45, 47);
             this.bBol.TabIndex = 34;
@@ -119,7 +119,7 @@
             // bCarp
             // 
             this.bCarp.Location = new System.Drawing.Point(166, 136);
-            this.bCarp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bCarp.Margin = new System.Windows.Forms.Padding(2);
             this.bCarp.Name = "bCarp";
             this.bCarp.Size = new System.Drawing.Size(45, 47);
             this.bCarp.TabIndex = 33;
@@ -130,7 +130,7 @@
             // bCikar
             // 
             this.bCikar.Location = new System.Drawing.Point(166, 190);
-            this.bCikar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bCikar.Margin = new System.Windows.Forms.Padding(2);
             this.bCikar.Name = "bCikar";
             this.bCikar.Size = new System.Drawing.Size(45, 50);
             this.bCikar.TabIndex = 32;
@@ -141,7 +141,7 @@
             // bEkle
             // 
             this.bEkle.Location = new System.Drawing.Point(166, 246);
-            this.bEkle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bEkle.Margin = new System.Windows.Forms.Padding(2);
             this.bEkle.Name = "bEkle";
             this.bEkle.Size = new System.Drawing.Size(45, 50);
             this.bEkle.TabIndex = 31;
@@ -152,7 +152,7 @@
             // b9
             // 
             this.b9.Location = new System.Drawing.Point(117, 84);
-            this.b9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b9.Margin = new System.Windows.Forms.Padding(2);
             this.b9.Name = "b9";
             this.b9.Size = new System.Drawing.Size(45, 47);
             this.b9.TabIndex = 30;
@@ -163,7 +163,7 @@
             // b8
             // 
             this.b8.Location = new System.Drawing.Point(68, 84);
-            this.b8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b8.Margin = new System.Windows.Forms.Padding(2);
             this.b8.Name = "b8";
             this.b8.Size = new System.Drawing.Size(45, 47);
             this.b8.TabIndex = 29;
@@ -174,7 +174,7 @@
             // b7
             // 
             this.b7.Location = new System.Drawing.Point(18, 84);
-            this.b7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b7.Margin = new System.Windows.Forms.Padding(2);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(45, 47);
             this.b7.TabIndex = 28;
@@ -185,7 +185,7 @@
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(117, 136);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(45, 47);
             this.button6.TabIndex = 27;
@@ -196,7 +196,7 @@
             // b5
             // 
             this.b5.Location = new System.Drawing.Point(68, 136);
-            this.b5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b5.Margin = new System.Windows.Forms.Padding(2);
             this.b5.Name = "b5";
             this.b5.Size = new System.Drawing.Size(45, 47);
             this.b5.TabIndex = 26;
@@ -207,7 +207,7 @@
             // b4
             // 
             this.b4.Location = new System.Drawing.Point(18, 136);
-            this.b4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b4.Margin = new System.Windows.Forms.Padding(2);
             this.b4.Name = "b4";
             this.b4.Size = new System.Drawing.Size(45, 50);
             this.b4.TabIndex = 25;
@@ -218,7 +218,7 @@
             // b3
             // 
             this.b3.Location = new System.Drawing.Point(117, 190);
-            this.b3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b3.Margin = new System.Windows.Forms.Padding(2);
             this.b3.Name = "b3";
             this.b3.Size = new System.Drawing.Size(45, 50);
             this.b3.TabIndex = 24;
@@ -229,7 +229,7 @@
             // b1
             // 
             this.b1.Location = new System.Drawing.Point(18, 188);
-            this.b1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b1.Margin = new System.Windows.Forms.Padding(2);
             this.b1.Name = "b1";
             this.b1.Size = new System.Drawing.Size(45, 51);
             this.b1.TabIndex = 23;
@@ -240,7 +240,7 @@
             // b0
             // 
             this.b0.Location = new System.Drawing.Point(18, 245);
-            this.b0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.b0.Margin = new System.Windows.Forms.Padding(2);
             this.b0.Name = "b0";
             this.b0.Size = new System.Drawing.Size(94, 51);
             this.b0.TabIndex = 22;
@@ -261,7 +261,7 @@
             // txtSonuc
             // 
             this.txtSonuc.Location = new System.Drawing.Point(18, 43);
-            this.txtSonuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSonuc.Margin = new System.Windows.Forms.Padding(2);
             this.txtSonuc.Name = "txtSonuc";
             this.txtSonuc.Size = new System.Drawing.Size(244, 20);
             this.txtSonuc.TabIndex = 20;
@@ -292,9 +292,9 @@
             this.Controls.Add(this.lblSonuc);
             this.Controls.Add(this.txtSonuc);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "HesapMakinesi";
-            this.Text = "HesapMakinesi";
+            this.Text = "Hesap Makinesi - 212106062 - Umut Kuzu";
             this.ResumeLayout(false);
             this.PerformLayout();
 

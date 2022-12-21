@@ -120,9 +120,9 @@
             this.Controls.Add(this.lbxBolgeler);
             this.Controls.Add(this.lbxKisiler);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AskerDagitim";
-            this.Text = "AskerDagitim";
+            this.Text = "Asker Dağıtım Otomasyonu - 212106062 - Umut Kuzu";
             this.ResumeLayout(false);
             this.PerformLayout();
 

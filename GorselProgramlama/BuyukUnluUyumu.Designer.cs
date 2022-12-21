@@ -49,7 +49,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(56, 244);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 92);
             this.button2.TabIndex = 8;
@@ -70,7 +70,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(10, 51);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(203, 20);
             this.textBox1.TabIndex = 6;
@@ -78,7 +78,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(56, 136);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 92);
             this.button1.TabIndex = 5;
@@ -97,9 +97,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "BuyukUnluUyumu";
-            this.Text = "BuyukUnluUyumu";
+            this.Text = "Büyük Ünlü Uyumu - 212106062 - Umut Kuzu";
             this.ResumeLayout(false);
             this.PerformLayout();
 

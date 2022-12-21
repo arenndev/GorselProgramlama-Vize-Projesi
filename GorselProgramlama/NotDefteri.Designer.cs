@@ -175,7 +175,7 @@
             // farklıKaydetToolStripMenuItem
             // 
             this.farklıKaydetToolStripMenuItem.Name = "farklıKaydetToolStripMenuItem";
-            this.farklıKaydetToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.farklıKaydetToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.farklıKaydetToolStripMenuItem.Text = "Farklı Kaydet";
             // 
             // btnKes
@@ -356,7 +356,7 @@
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Name = "NotDefteri";
-            this.Text = "NotDefteri";
+            this.Text = "Not Defteri - 212106062 - Umut Kuzu";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
