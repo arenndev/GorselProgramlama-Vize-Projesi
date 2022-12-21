@@ -123,7 +123,10 @@ namespace GorselProgramlama
         // zemin rengini ayarlamak için renk dialoğunu açar
         private void btnZeminRengi_Click(object sender, EventArgs e)
         {
-
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                textBox1.BackColor = colorDialog1.Color;
+            }
         }
 
         // yazı tipini ayarlamak için yazı tipi diaolğunu açar.

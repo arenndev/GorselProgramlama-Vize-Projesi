@@ -77,32 +77,34 @@
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(0, 28);
+            this.textBox1.Location = new System.Drawing.Point(0, 35);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(800, 398);
+            this.textBox1.Size = new System.Drawing.Size(1067, 491);
             this.textBox1.TabIndex = 5;
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 28);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 35);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 28);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 35);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 28);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 35);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 28);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 35);
             // 
             // openFileDialog1
             // 
@@ -135,8 +137,8 @@
             this.btnZeminRengi});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(800, 28);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(1067, 35);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -146,7 +148,7 @@
             this.btnYeni.Image = global::GorselProgramlama.Properties.Resources.NewDocumentHS;
             this.btnYeni.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnYeni.Name = "btnYeni";
-            this.btnYeni.Size = new System.Drawing.Size(24, 25);
+            this.btnYeni.Size = new System.Drawing.Size(29, 32);
             this.btnYeni.Text = "Yeni";
             this.btnYeni.Click += new System.EventHandler(this.btnYeni_Click);
             // 
@@ -156,7 +158,7 @@
             this.btnAç.Image = global::GorselProgramlama.Properties.Resources.openHS;
             this.btnAç.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAç.Name = "btnAç";
-            this.btnAç.Size = new System.Drawing.Size(24, 25);
+            this.btnAç.Size = new System.Drawing.Size(29, 32);
             this.btnAç.Text = "Aç";
             this.btnAç.Click += new System.EventHandler(this.btnAç_Click);
             // 
@@ -168,14 +170,14 @@
             this.btnKaydet.Image = global::GorselProgramlama.Properties.Resources.saveHS;
             this.btnKaydet.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(36, 25);
+            this.btnKaydet.Size = new System.Drawing.Size(39, 32);
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_ButtonClick);
             // 
             // farklıKaydetToolStripMenuItem
             // 
             this.farklıKaydetToolStripMenuItem.Name = "farklıKaydetToolStripMenuItem";
-            this.farklıKaydetToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
+            this.farklıKaydetToolStripMenuItem.Size = new System.Drawing.Size(210, 32);
             this.farklıKaydetToolStripMenuItem.Text = "Farklı Kaydet";
             // 
             // btnKes
@@ -184,7 +186,7 @@
             this.btnKes.Image = global::GorselProgramlama.Properties.Resources.CutHS;
             this.btnKes.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnKes.Name = "btnKes";
-            this.btnKes.Size = new System.Drawing.Size(24, 25);
+            this.btnKes.Size = new System.Drawing.Size(29, 32);
             this.btnKes.Text = "Kes";
             this.btnKes.Click += new System.EventHandler(this.btnKes_Click);
             // 
@@ -194,7 +196,7 @@
             this.btnKopyala.Image = global::GorselProgramlama.Properties.Resources.CopyHS;
             this.btnKopyala.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnKopyala.Name = "btnKopyala";
-            this.btnKopyala.Size = new System.Drawing.Size(24, 25);
+            this.btnKopyala.Size = new System.Drawing.Size(29, 32);
             this.btnKopyala.Text = "Kopyala";
             this.btnKopyala.Click += new System.EventHandler(this.btnKopyala_Click);
             // 
@@ -204,7 +206,7 @@
             this.btnYapıştır.Image = global::GorselProgramlama.Properties.Resources.PasteHS;
             this.btnYapıştır.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnYapıştır.Name = "btnYapıştır";
-            this.btnYapıştır.Size = new System.Drawing.Size(24, 25);
+            this.btnYapıştır.Size = new System.Drawing.Size(29, 32);
             this.btnYapıştır.Text = "Yapıştır";
             this.btnYapıştır.Click += new System.EventHandler(this.btnYapıştır_Click);
             // 
@@ -214,7 +216,7 @@
             this.btnGeriAl.Image = global::GorselProgramlama.Properties.Resources.Edit_UndoHS;
             this.btnGeriAl.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnGeriAl.Name = "btnGeriAl";
-            this.btnGeriAl.Size = new System.Drawing.Size(24, 25);
+            this.btnGeriAl.Size = new System.Drawing.Size(29, 32);
             this.btnGeriAl.Text = "Geri Al";
             this.btnGeriAl.Click += new System.EventHandler(this.btnGeriAl_Click);
             // 
@@ -224,7 +226,7 @@
             this.btnYinele.Image = global::GorselProgramlama.Properties.Resources.Edit_RedoHS;
             this.btnYinele.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnYinele.Name = "btnYinele";
-            this.btnYinele.Size = new System.Drawing.Size(24, 25);
+            this.btnYinele.Size = new System.Drawing.Size(29, 32);
             this.btnYinele.Text = "Yinele";
             this.btnYinele.Click += new System.EventHandler(this.btnYinele_Click);
             // 
@@ -235,8 +237,9 @@
             this.btnKelimeKaydır.Image = ((System.Drawing.Image)(resources.GetObject("btnKelimeKaydır.Image")));
             this.btnKelimeKaydır.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnKelimeKaydır.Name = "btnKelimeKaydır";
-            this.btnKelimeKaydır.Size = new System.Drawing.Size(106, 25);
+            this.btnKelimeKaydır.Size = new System.Drawing.Size(131, 32);
             this.btnKelimeKaydır.Text = "Ekrana Sığdır";
+            this.btnKelimeKaydır.Click += new System.EventHandler(this.btnKelimeKaydır_Click);
             // 
             // btnSola
             // 
@@ -244,7 +247,7 @@
             this.btnSola.Image = global::GorselProgramlama.Properties.Resources.AlignTableCellMiddleLeftJustHS;
             this.btnSola.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSola.Name = "btnSola";
-            this.btnSola.Size = new System.Drawing.Size(24, 25);
+            this.btnSola.Size = new System.Drawing.Size(29, 32);
             this.btnSola.Text = "Sola Hizala";
             this.btnSola.Click += new System.EventHandler(this.btnSola_Click);
             // 
@@ -254,7 +257,7 @@
             this.btnOrtala.Image = global::GorselProgramlama.Properties.Resources.AlignTableCellMiddleCenterHS;
             this.btnOrtala.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnOrtala.Name = "btnOrtala";
-            this.btnOrtala.Size = new System.Drawing.Size(24, 25);
+            this.btnOrtala.Size = new System.Drawing.Size(29, 32);
             this.btnOrtala.Text = "Ortala";
             this.btnOrtala.Click += new System.EventHandler(this.btnOrtala_Click);
             // 
@@ -264,7 +267,7 @@
             this.btnSaga.Image = global::GorselProgramlama.Properties.Resources.AlignTableCellMiddleRightHS;
             this.btnSaga.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSaga.Name = "btnSaga";
-            this.btnSaga.Size = new System.Drawing.Size(24, 25);
+            this.btnSaga.Size = new System.Drawing.Size(29, 32);
             this.btnSaga.Text = "Sağa Hizala";
             this.btnSaga.Click += new System.EventHandler(this.btnSaga_Click);
             // 
@@ -274,7 +277,7 @@
             this.btnYaziTipi.Image = global::GorselProgramlama.Properties.Resources.FontHS;
             this.btnYaziTipi.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnYaziTipi.Name = "btnYaziTipi";
-            this.btnYaziTipi.Size = new System.Drawing.Size(24, 25);
+            this.btnYaziTipi.Size = new System.Drawing.Size(29, 32);
             this.btnYaziTipi.Text = "Yazı Tipi";
             this.btnYaziTipi.Click += new System.EventHandler(this.btnYaziTipi_Click);
             // 
@@ -284,7 +287,7 @@
             this.btnYazıRengi.Image = global::GorselProgramlama.Properties.Resources.Color_fontHS;
             this.btnYazıRengi.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnYazıRengi.Name = "btnYazıRengi";
-            this.btnYazıRengi.Size = new System.Drawing.Size(24, 25);
+            this.btnYazıRengi.Size = new System.Drawing.Size(29, 32);
             this.btnYazıRengi.Text = "Yazı Rengi";
             this.btnYazıRengi.Click += new System.EventHandler(this.btnYazıRengi_Click);
             // 
@@ -294,20 +297,22 @@
             this.btnZeminRengi.Image = global::GorselProgramlama.Properties.Resources.ColorHS;
             this.btnZeminRengi.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnZeminRengi.Name = "btnZeminRengi";
-            this.btnZeminRengi.Size = new System.Drawing.Size(24, 25);
+            this.btnZeminRengi.Size = new System.Drawing.Size(29, 32);
             this.btnZeminRengi.Text = "Zemin Rengi";
+            this.btnZeminRengi.Click += new System.EventHandler(this.btnZeminRengi_Click);
             // 
             // statusStrip1
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel6,
             this.lblCAPS,
             this.lblNUM,
+            this.toolStripStatusLabel6,
             this.toolStripProgressBar1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 426);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 526);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 24);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1067, 28);
             this.statusStrip1.Stretch = false;
             this.statusStrip1.TabIndex = 4;
             this.statusStrip1.Text = "statusStrip1";
@@ -319,7 +324,7 @@
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
-            this.toolStripStatusLabel6.Size = new System.Drawing.Size(583, 19);
+            this.toolStripStatusLabel6.Size = new System.Drawing.Size(812, 22);
             this.toolStripStatusLabel6.Spring = true;
             // 
             // lblCAPS
@@ -329,7 +334,7 @@
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.lblCAPS.Name = "lblCAPS";
-            this.lblCAPS.Size = new System.Drawing.Size(50, 19);
+            this.lblCAPS.Size = new System.Drawing.Size(50, 22);
             this.lblCAPS.Text = "CAPS";
             // 
             // lblNUM
@@ -339,22 +344,23 @@
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.lblNUM.Name = "lblNUM";
-            this.lblNUM.Size = new System.Drawing.Size(50, 19);
+            this.lblNUM.Size = new System.Drawing.Size(50, 22);
             this.lblNUM.Text = "NUM";
             // 
             // toolStripProgressBar1
             // 
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 18);
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(133, 20);
             // 
             // NotDefteri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "NotDefteri";
             this.Text = "Not Defteri - 212106062 - Umut Kuzu";
             this.toolStrip1.ResumeLayout(false);
